@@ -1,0 +1,28 @@
+{
+  "name": "trafficplatedetect",
+  "version": "1.0.0",
+  "description": "Traffic plate detection using AWS Rekognition API.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vamsi963601/TrafficPlateDetect.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vamsi963601/TrafficPlateDetect/issues"
+  },
+  "homepage": "https://github.com/vamsi963601/TrafficPlateDetect#readme",
+  "devDependencies": {
+    "aws-sdk": "2.254.1",
+    "body-parser": "1.18.3",
+    "cookie-parser": "1.4.3",
+    "express": "4.16.3",
+    "fs-extra": "6.0.1",
+    "node-uuid": "1.4.8",
+    "path": "0.12.7"
+  }
+}
