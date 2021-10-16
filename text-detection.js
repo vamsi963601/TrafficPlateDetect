@@ -1,4 +1,4 @@
-const config = require('./../config/aws-config');
+const config = require('./aws-config');
 
 var AWS = require('aws-sdk');
 AWS.config.region = config.region;
@@ -15,6 +15,10 @@ var objReturn = {
 	resultAWS:''
 }
 
+module.exports.detect_text = function(obj, callback){
+
+
+	console.log("Detecting Text ...")
 
 var params = {
     Image: { /* required */
@@ -44,3 +48,4 @@ var params = {
     if (err) console.log(err, err.stack); // an error occurred
     else     console.log(data);           // successful response
   });
+}

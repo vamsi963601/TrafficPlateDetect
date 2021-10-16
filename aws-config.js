@@ -1,0 +1,1 @@
+module.exports.region = "ap-south-1";
